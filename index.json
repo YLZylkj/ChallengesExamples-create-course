@@ -1,0 +1,35 @@
+{
+    "title": "Creating a Katacoda Course",
+    "description": "Learn how to create a collection of Katacoda scenarios into a course",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Pathway Files",
+                "text": "step1/text.md",
+                "verify": "step1/verify.sh"
+            },
+            {
+                "title": "Reusing Scenarios",
+                "text": "step2/text.md",
+                "verify": "step2/verify.sh"
+            },
+            {
+                "title": "Using katacoda CLI to create a course",
+                "text": "step3/text.md"
+            },
+            {
+                "title": "Using katacoda CLI to add existing scenarios to a course",
+                "text": "step4/text.md"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+       
+    }
+}
